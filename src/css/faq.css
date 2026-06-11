@@ -12,7 +12,7 @@
 .faq-section-title {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 
 .faq-title {
@@ -35,7 +35,6 @@
 .faq-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .faq-item {
@@ -87,10 +86,6 @@
   .faq {
     padding: 64px 32px;
   }
-
-  .faq-title {
-    font-size: 36px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -101,7 +96,7 @@
   .faq-container {
     flex-direction: row;
     align-items: flex-start;
-    gap: 80px;
+    gap: 24px;
     max-width: 1312px;
     margin: 0 auto;
   }
