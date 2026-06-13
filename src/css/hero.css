@@ -96,7 +96,6 @@
 
     .hero-container {
         padding: 0 64px;
-        margin: 0;
     }
 
     .hero-title {
@@ -114,7 +113,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/parhomchuk-hero/hero-desktop.jpg);
     }
 
-    .hero-container {
+    .hero-text {
         max-width: 646px;
     }
 }
