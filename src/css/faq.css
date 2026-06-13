@@ -97,8 +97,6 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 24px;
-    max-width: 1312px;
-    margin: 0 auto;
   }
 
   .faq-section-title {
