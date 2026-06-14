@@ -1,6 +1,5 @@
 .mission-section {
   background-color: #5e8a4d;
-  padding: 64px 16px;
 }
 
 .mission-text-wrapper {
@@ -38,11 +37,6 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .mission-section {
-    padding-top: 112px;
-    padding-bottom: 112px;
-  }
-
   .mission-text-wrapper {
     margin-bottom: 80px;
   }
