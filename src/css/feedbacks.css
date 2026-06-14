@@ -1,0 +1,150 @@
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  background-color: #e8eee5;
+  padding: 64px 0;
+}
+
+.feedbacks-header {
+  max-width: 644px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.feedbacks-title {
+  margin-bottom: 16px;
+
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #010400;
+}
+
+.feedbacks-desc {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #010400;
+}
+
+.feedbacks-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feedbacks-item {
+  background: #e8eee5;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  min-height: 314px;
+  min-width: 300px;
+}
+
+.feedbacks-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.feedbacks-stars svg {
+  width: 16px;
+  height: 16px;
+}
+
+.star--filled {
+  fill: #010400;
+}
+
+.star--stroke {
+  fill: none;
+  stroke: #010400;
+}
+
+.feedbacks-text {
+  flex-grow: 1;
+
+  margin: 0;
+
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #010400;
+}
+
+.feedbacks-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+.feedbacks-avatar {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  display: block;
+}
+
+.feedbacks-name {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #010400;
+}
+
+@media screen and (min-width: 768px) {
+  .feedbacks {
+    padding: 64px 0;
+  }
+
+  .feedbacks-title {
+    font-size: 36px;
+  }
+
+  .feedbacks-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .feedbacks {
+    padding: 112px 0;
+  }
+
+  .feedbacks-header {
+    max-width: 760px;
+    margin-bottom: 64px;
+  }
+
+  .feedbacks-title {
+    font-size: 48px;
+  }
+
+  .feedbacks-desc {
+    max-width: 644px;
+    margin: 0 auto;
+  }
+
+  .feedbacks-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .feedbacks-item {
+    min-height: 246px;
+  }
+}
