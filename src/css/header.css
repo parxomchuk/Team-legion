@@ -136,3 +136,19 @@
         display: none;
     }
 }
+
+.navbar-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     padding: 0;
+     border: none;
+     background-color: transparent;
+     cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+     .navbar-btn {
+          display: none;
+     }
