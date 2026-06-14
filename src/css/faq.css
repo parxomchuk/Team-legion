@@ -1,6 +1,5 @@
 .faq {
   background-color: #5e8a4d;
-  padding: 64px 16px;
 }
 
 .faq-container {
@@ -82,16 +81,7 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
-  .faq {
-    padding: 64px 32px;
-  }
-}
-
 @media screen and (min-width: 1440px) {
-  .faq {
-    padding: 112px 64px;
-  }
 
   .faq-container {
     flex-direction: row;
