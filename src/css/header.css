@@ -1,0 +1,139 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5E8A4D;
+    padding: 6px 16px;
+    line-height: 0;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-logo-link {
+    cursor: pointer;
+}
+
+.header-logo-icon {
+    fill: #FFFFFF;
+    padding: 0;
+}
+
+.header-navigation-and-btn-wrapper {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header-navigation-list {
+    display: none;
+}
+
+.header-btn-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation-btn-order {
+    display: none;
+}
+
+.header-navigation-btn-burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header-burger-icon {
+    fill: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header {
+        padding: 6px 32px;
+    }
+
+    .header-btn-list {
+        gap: 16px;
+    }
+
+    .header-navigation-btn-order {
+        display: flex;
+        border-radius: 6px;
+        background-color: #1A5901;
+        border: 1px solid transparent;
+        padding: 4px 24px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+
+    .header-navigation-btn-order:hover,
+    .header-navigation-btn-order:focus {
+        background-color: #FFFFFF;
+        border-color: transparent;
+        outline: none;
+        color: #010400;
+    }
+
+    .header-navigation-btn-order:active {
+        box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
+    }
+
+    .header-navigation-btn-burger {
+        padding: 10px;
+    }
+
+    .header-burger-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .header {
+        padding: 6px 64px;
+        scroll-behavior: smooth;
+    }
+
+    .header-navigation-and-btn-wrapper {
+        gap: 32px;
+    }
+
+    .header-navigation-list {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .header-navigation-link {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+
+    .header-btn-list {
+        gap: 0;
+    }
+
+    .header-navigation-btn-burger {
+        display: none;
+    }
+}
