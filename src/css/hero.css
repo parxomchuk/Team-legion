@@ -9,7 +9,6 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
 }
 
 .hero-title {
@@ -65,12 +64,6 @@
 
 @media screen and (min-width: 768px) {
 
-    .container {
-        max-width: 768px;
-        margin: 0;
-        padding: 0 32px;
-    }
-
     .hero-container {
         justify-content: center;
         align-items: flex-start;
@@ -94,11 +87,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-
-    .container {
-        padding: 0 64px;
-    }
-
+    
     .hero-title {
         max-width: 435px;
         font-size: 56px;
@@ -114,7 +103,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/parhomchuk-hero/hero-desktop.jpg);
     }
 
-    .hero-container {
+    .hero-text {
         max-width: 646px;
     }
 }
