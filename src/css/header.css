@@ -1,4 +1,13 @@
+*{
+   scroll-behavior: smooth;
+}
+
 .header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #5E8A4D;
     padding: 6px 16px;
     line-height: 0;
@@ -6,6 +15,10 @@
 
 .header-container {
     display: flex;
+}
+
+.header-logo-link{
+    cursor: pointer;
 }
 
 .header-logo-icon {
@@ -66,6 +79,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        cursor: pointer;
     }
 
     .header-navigation-btn-order:hover,
@@ -94,6 +108,7 @@
 
     .header{
         padding: 6px 64px;
+        scroll-behavior: smooth;
     }
 
     .header-navigation-and-btn-wrapper{
@@ -111,6 +126,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        cursor: pointer;
     }
     .header-btn-list{
         gap: 0;
