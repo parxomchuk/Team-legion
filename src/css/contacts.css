@@ -1,11 +1,6 @@
 
 .contacts {
     background: #E8EEE5;
-    padding: 64px 16px;
-}
-
-.container {
-    width: 100%;
 }
 
 .contacts-content {
@@ -28,13 +23,13 @@
     font-family: "Chivo", sans-serif;
     font-size: 36px;
     font-weight: 400;
-    line-height: -1;
+    line-height: 1.2;
     color: #010400;
 }
 
 .contacts-text {
     font-family: "Public Sans", sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -64,6 +59,7 @@
     padding-bottom: 8px;
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .contacts-item a {
@@ -74,6 +70,7 @@
 
 .contact-form {
     width: 100%;
+    margin-bottom: 24px;
 }
 
 .form-group {
@@ -90,12 +87,12 @@
 
 .form-group input {
     width: 100%;
-    padding-bottom: 16px 0;
+    padding: 8px 0;
     border: none;
     border-bottom: 1px solid #C8C8C8;
     background: transparent;
-    font-size: 24px;
-    color: #666;
+    font-size: 16px;
+    color: #010400;
     outline: none;
 }
 
@@ -108,7 +105,7 @@
     resize: none;
     outline: none;
     font-size: 16px;
-    color: #666;
+    color: #010400;
 }
 
 .btn-primary {
@@ -123,6 +120,16 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #010400;
+    background: #fff;
+}
+
+.btn-primary:active {
+    box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -141,16 +148,20 @@ textarea::placeholder {
     transition: opacity .2s ease;
 }
 
+.inp:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+.inp:not(:placeholder-shown):valid {
+    border-color: green;
+}
+
 
 /* =========================
    TABLET 768px - 1439px
 ========================= */
 
 @media screen and (min-width: 768px) {
-
-    .contacts {
-        padding: 64px 64px;
-    }
 
     .contacts-title {
         font-size: 36px;
@@ -177,12 +188,6 @@ textarea::placeholder {
 ========================= */
 
 @media screen and (min-width: 1440px) {
-
-
-    .container {
-        max-width: 1312px;
-        margin: 0 auto;
-    }
 
     .contacts-content {
         display: flex !important;
