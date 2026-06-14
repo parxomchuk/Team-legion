@@ -6,9 +6,13 @@ body {
   background-color: #E8EEE5;
 }
 
+.section {
+  padding: 64px 0;
+}
+
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
 }
 
 h1,
@@ -54,9 +58,14 @@ textarea {
   border: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .section {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding: 112px 0;
   }
 }
