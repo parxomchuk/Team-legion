@@ -1,15 +1,10 @@
 .benefits {
   background-color: #1a5901;
-  padding: 64px 16px;
-}
-
-.benefits-container {
-  max-width: 375px;
 }
 
 .title-benefits {
   font-weight: 400;
-  font-family: Chivo;
+  font-family: "Chivo", sans-serif;
   font-size: 36px;
   color: #ffffff;
   line-height: 1.2;
@@ -19,18 +14,26 @@
 
 .benefits-title1 {
   color: #ffffff;
-  font-family: Chivo;
+  font-family: "Chivo", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: -1%;
 }
 
+.benefits-title-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+  line-height: 1.5;
+}
+
 .benefits-text {
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
-  font-family: Public Sans;
+  font-family: "Public Sans", sans-serif;
   line-height: 1.5;
   letter-spacing: 0%;
 }
@@ -68,14 +71,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .benefits {
-    padding: 64px 32px;
-  }
 
   .benefits-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 32px;
+    column-gap: 16px;
   }
 
   .benefits-item {
@@ -86,7 +87,6 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 768px;
   }
 
   .benefits-img {
@@ -104,9 +104,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .benefits {
-    padding: 112px 64px;
-  }
 
   .benefits-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -114,9 +111,7 @@
 
   .benefits-img {
     display: block;
-    border: 1px solid #000000;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: calc((100% - 24px) / 2);
@@ -128,9 +123,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    max-width: 1440px;
     gap: 40px; /* можно убрать после того как будет добавлено в базовый стиль */
-    margin: 0 auto; /* можно убрать после того как будет добавлено в базовый стиль */
   }
 
   .benefits-content {
