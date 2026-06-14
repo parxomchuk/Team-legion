@@ -1,10 +1,6 @@
 .assortment-section {
     background-color: #d1ddcc;
-}
-
-.assortment-container {
-    width: 100%;
-    padding: 64px 16px;
+    color: #010400;
 }
 
 .assortment-subtitle {
@@ -91,22 +87,29 @@
     height: 40px;
     margin-top: auto;
 }
+
 .assortment-button-text {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
 }
 
-@media screen and (min-width: 768px) {
+.assortment-button:hover,
+.assortment-button:focus {
+    background-color: #1a5901;
+    color: #fff;
+}
 
-    .assortment-container {
-        padding: 64px 32px;
-    }
+.assortment-button:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (min-width: 768px) {
 
     .assortment-list {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 16px;
     }
 
     .assortment-list-item {
@@ -115,10 +118,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-
-    .assortment-container {
-        padding: 112px 64px;
-    }
 
     .assortment-title {
         width: 768px;
