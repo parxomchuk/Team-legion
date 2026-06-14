@@ -45,6 +45,10 @@
     display: none;
 }
 
+.header-navigation-btn-order-link {
+    color: #FFFFFF;
+}
+
 .header-navigation-btn-burger {
     display: flex;
     justify-content: center;
@@ -65,7 +69,7 @@
         gap: 16px;
     }
 
-    .header-navigation-btn-order {
+    .header-navigation-btn-order-link {
         display: flex;
         border-radius: 6px;
         background-color: #1A5901;
@@ -78,8 +82,8 @@
         cursor: pointer;
     }
 
-    .header-navigation-btn-order:hover,
-    .header-navigation-btn-order:focus {
+    .header-navigation-btn-order-link:hover,
+    .header-navigation-btn-order-link:focus {
         background-color: #FFFFFF;
         border-color: transparent;
         outline: none;
