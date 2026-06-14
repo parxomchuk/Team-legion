@@ -5,6 +5,12 @@ body {
   background-color: #E8EEE5;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 ul,
 ol {
   list-style: none;
