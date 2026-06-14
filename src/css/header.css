@@ -1,5 +1,9 @@
 *{
+<<<<<<< HEAD
     scroll-behavior: smooth;
+=======
+   scroll-behavior: smooth;
+>>>>>>> main
 }
 
 .header {
@@ -17,7 +21,11 @@
     display: flex;
 }
 
+<<<<<<< HEAD
 .header-logo-link {
+=======
+.header-logo-link{
+>>>>>>> main
     cursor: pointer;
 }
 
