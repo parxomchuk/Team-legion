@@ -9,8 +9,8 @@
     left: 0;
     width: 100%;
     background-color: #5E8A4D;
-    padding: 6px 16px;
     line-height: 0;
+    padding: 6px 0;
 }
 
 .header-container {
@@ -60,11 +60,7 @@
 }
 
 @media screen and (min-width: 768px) {
-
-    .header {
-        padding: 6px 32px;
-    }
-
+    
     .header-btn-list {
         gap: 16px;
     }
@@ -107,7 +103,6 @@
 @media screen and (min-width: 1440px) {
 
     .header {
-        padding: 6px 64px;
         scroll-behavior: smooth;
     }
 
