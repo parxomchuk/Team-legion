@@ -44,6 +44,8 @@
     border-radius: 6px;
     padding: 6px 32px;
     background-color: #fff;
+    transition: background-color 250ms ease-in-out,
+    color 250ms ease-in-out;
 }
 
 .hero-button:hover,

@@ -42,7 +42,6 @@
 }
 
 .header-navigation-btn-order-link {
-    color: #FFFFFF;
     display: none;
 }
 
@@ -77,6 +76,8 @@
         font-size: 16px;
         line-height: 1.5;
         cursor: pointer;
+        transition: background-color 250ms ease-in-out,
+        color 250ms ease-in-out;
     }
 
     .header-navigation-btn-order-link:hover,
@@ -124,6 +125,7 @@
         line-height: 1.5;
         cursor: pointer;
     }
+    
 
     .header-btn-list {
         gap: 0;
@@ -149,4 +151,23 @@
      .navbar-btn {
           display: none;
      }
+    }
+
+
+
+    .navbar-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    @media (min-width: 1440px) {
+        .navbar-btn {
+            display: none;
+        }
     }
