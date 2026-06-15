@@ -41,12 +41,9 @@
     align-items: center;
 }
 
-.header-navigation-btn-order {
-    display: none;
-}
-
 .header-navigation-btn-order-link {
     color: #FFFFFF;
+    display: none;
 }
 
 .header-navigation-btn-burger {
@@ -152,3 +149,4 @@
      .navbar-btn {
           display: none;
      }
+    }
